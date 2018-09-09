@@ -1,0 +1,30 @@
+{
+  "name": "fitfont-demo",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.2",
+    "@fitbit/sdk-cli": "^1.0.1"
+  },
+  "fitbit": {
+    "appUUID": "4b507109-52e9-40d9-8d47-9a71da7a0260",
+    "appType": "clockface",
+    "appDisplayName": "Fitfont Demo",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {}
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  },
+  "dependencies": {
+    "fitfont": "file:../fitfont"
+  }
+}
